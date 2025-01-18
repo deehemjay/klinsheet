@@ -1,0 +1,273 @@
+.firstdiver {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 400px;
+}
+
+.seconddiver {
+  width: 641px;
+  height: 1078px;
+  padding: 50px 50px 150px 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.thirddiver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  button {
+    width: 182px;
+    height: 43px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fe5925;
+    color: white;
+    border: none;
+    outline: none;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: #64b571;
+  }
+}
+
+.boxwrds {
+  display: flex;
+  gap: 5px;
+  p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+}
+
+.allboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.firstparter {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 20px;
+  /* background-color: red; */
+  width: 519px;
+  h4 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+}
+
+.secondparter {
+  /* background-color: aquamarine; */
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.formbelow {
+  width: 519px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.indiformer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  h6 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  input {
+    width: 220px;
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+}
+
+.uploadspot {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  h6 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  input {
+    width: 519px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    /* padding: 22px 126px 22px 126px; */
+    border-radius: 5px;
+    border: 1px;
+    border: 2px black dotted;
+  }
+}
+
+.upload-container {
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px dashed black;
+  border-radius: 8px;
+  padding: 40px;
+  width: 84%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container p {
+  color: #64b571;
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+.upload-btn {
+  display: inline-block;
+  /* align-items: center; */
+  background-color: #ff5e31;
+  color: #ffffff;
+  border: none;
+  /* padding: 10px; */
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.upload-btn:hover {
+  background-color: #e54b26;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.messageside {
+  display: flex;
+  flex-direction: column;
+  h6 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  textarea {
+    /* background-color: black; */
+    height: 128px;
+    border-radius: 5px;
+    border: 1px black solid;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .firstdiver {
+    width: 100%;
+    /* background-color: green; */
+    top: 300px;
+  }
+
+  .seconddiver {
+    width: 60%;
+    display: flex;
+    /* align-items: center; */
+  }
+
+  .thirddiver {
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+
+    button {
+      display: flex;
+      align-items: center;
+      width: 65px;
+      height: 30px;
+    }
+  }
+
+  .firstparter {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    /* background-color: red; */
+
+    h4 {
+      /* background-color: #64b571; */
+      font-size: medium;
+      align-items: center;
+    }
+  }
+
+  .secondparter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h2 {
+      font-size: medium;
+    }
+  }
+
+  .indiformer input{
+    width: 100%;
+  }
+
+  .formbelow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 98%;
+    /* background-color: #ff5e31; */
+  }
+
+  .upload-container {
+    width: fit-content;
+    height: 120px;
+    p {
+      font-size: small;
+      /* background-color: gold; */
+      height: fit-content;
+    }
+  }
+
+  .upload-btn {
+    font-size: small;
+    width: 50px;
+    height: 30px;
+  }
+}

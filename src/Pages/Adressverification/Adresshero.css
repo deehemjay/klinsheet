@@ -1,0 +1,31 @@
+.firsthero{
+    background-image: url(../../images/pexels-mart-production-7643755\ \(1\).jpg);
+    height: 433px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.secondhero{
+    background-color: #12273680;
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+    height: inherit;
+}
+
+.secondhero h1{
+    color: white;
+font-family: Poppins;
+font-size: 64px;
+font-weight: 600;
+line-height: 96px;
+
+}
+
+.secondhero p{
+    color: white;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}

@@ -1,0 +1,37 @@
+.dropdowncontents{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  width: 222px;
+  border-radius: 20px;
+/* Padding: 20px; */
+Gap: 15px;
+}
+
+.dropdowncontents a{
+    color: black;
+}
+
+.dropdowncontents a:hover{
+    
+color: #FE5925;
+}
+
+.dropdownbosses{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+.dropdowns{
+      /* position: relative; */
+}
+
+.dropdownbosses:hover{
+    color: #FE5925;
+}

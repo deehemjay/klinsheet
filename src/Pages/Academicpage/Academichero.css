@@ -1,0 +1,30 @@
+.academicherofirst{
+    background-image: url(../../images/young-female-african-american-student-with-diploma-poses-outdoorsxa_627829-3973\ 1.png);
+    height: 433px;
+    background-repeat: no-repeat;
+}
+
+.academicherosecond{
+    background-color: #12273680;
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+    height: inherit;
+}
+
+.academicherosecond h1{
+    color: white;
+font-family: Poppins;
+font-size: 64px;
+font-weight: 600;
+line-height: 96px;
+
+}
+
+.academicherosecond p{
+    color: white;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}

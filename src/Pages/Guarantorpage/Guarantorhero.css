@@ -1,0 +1,30 @@
+.guarantorherofirst{
+    background-image: url(../../images/male-receptionist-elegant-suit-work-hours_23-2149714397\ 1.png);
+    height: 433px;
+    background-repeat: no-repeat;
+}
+
+.guarantorherosec{
+    background-color: #12273680;
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+    height: inherit;
+}
+
+.guarantorherosec h1{
+    color: white;
+font-family: Poppins;
+font-size: 64px;
+font-weight: 600;
+line-height: 96px;
+
+}
+
+.guarantorherosec p{
+    color: white;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}

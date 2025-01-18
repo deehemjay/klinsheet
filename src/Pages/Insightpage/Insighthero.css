@@ -1,0 +1,98 @@
+.insightherofirst {
+  /* background-color: aqua; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1400px;
+}
+
+.insightherosecond {
+    height: 90%;
+  /* background-color: blue; */
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.insightherosecond button{
+    width: 152px;
+height: 36px;
+padding: 10px;
+gap: 10px;
+border-radius:20px;
+background-color: #FE5925;
+outline: none;
+border: none;
+}
+
+.insightherosecond button:hover{
+cursor: pointer;
+background-color: #6C933A;
+}
+
+.blogwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.indiblog {
+  width: 365px;
+  height: 589px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wordys {width: 366px;
+height: 108px;
+gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wordys a{
+    text-decoration: none;
+    color: black;
+}
+
+.wordys h6 {
+    width: 360px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.wordys a.p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+  background-color: grey;
+}
+
+.wordys p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  
+}
+
+
+.pie{
+ font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+/* background-color: green; */
+
+p{
+    color: #FE5925;
+}
+}

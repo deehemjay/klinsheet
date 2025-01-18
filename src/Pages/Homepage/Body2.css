@@ -1,0 +1,251 @@
+.body2first{
+
+    height: 861px;
+    display: flex;
+     justify-content: center;
+     align-items: end;
+    /* background-color: red; */
+
+}
+
+.body2firsts{
+    height: 750px;
+     width: 100%;
+background-color: #CBE9FF80;
+display: flex;
+align-items: end;
+    justify-content: center;
+
+
+}
+
+.body2second{
+   width: 85%;
+    height: 85%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    
+    button{
+        width: 182px;
+height: 43px;
+padding: 10px;
+gap: 10px;
+border-radius: 20px;
+background-color: #FE5925;
+outline: none;
+border: none;
+color: white;
+
+    }
+
+    button:hover{
+        background-color: #6C933A;
+        cursor: pointer;
+    }
+    
+}
+
+.buttondiv{
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;}
+
+.servicediv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        margin: 0;
+        width: 620px;
+    }
+    
+}
+
+.leftsideservice{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    
+    h2{
+        margin: 0;
+        font-family: Poppins;
+font-size: 36px;
+font-weight: 500;
+line-height: 54px;
+
+    }
+}
+
+.arrowservice{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 413px;
+
+    p{
+        margin: 0;
+    }
+
+}
+
+.unallign{
+     display: flex;
+     gap: 54px;
+     /* background-color: blue; */
+     width: 70%;
+        
+    h3{
+         margin: 0;
+         font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+
+
+
+    }
+
+    p{
+        margin: 0;
+        font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+
+
+    }
+   
+    
+
+}
+
+.servicediv2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+ 
+}
+
+.one{
+    color: #FE5925;
+}
+
+.indiconts{
+    display: flex;
+     /* gap: 149px; */
+    align-items: center;
+    justify-content: space-between;
+    
+    h3{
+        margin: 0;
+    }
+}
+
+.indisservicediv2{
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+   
+     flex-direction: column;
+
+}
+
+.liney{
+    border: 1px solid black;
+  width: 100%;
+}
+
+
+@media screen and (max-width:768px) {
+    .body2first{
+        height: 500px;
+    }
+    .body2firsts{
+        height: 500px;
+display: flex;
+align-self: start;
+/* background-color: #6C933A; */
+    }
+
+
+    .body2second{
+        /* background-color: blue; */
+        display: flex;
+        align-self: center;
+        /* justify-content: center; */
+        width: 100%;
+        gap: 20px;
+    }
+
+    .servicediv{
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+        width: 100%;
+        /* background-color: yellowgreen; */
+
+        p{
+            /* background-color: red; */
+            width: 90%;
+        }
+    }
+
+    .leftsideservice{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 90%;
+        /* background-color: purple; */
+h2{
+    font-size: medium;
+}
+    }
+
+    .arrowservice{
+        p{
+            font-size: small;
+        }
+    }
+
+    .servicediv2{
+        /* background-color: yellow; */
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .indisservicediv2{
+        width: 90%;
+        /* background-color: gray; */
+    }
+
+    .indiconts{
+        h3{
+            font-size: small;
+        }
+    }
+
+    .unallign{
+        display: flex;
+        align-items: center;
+        p{
+            font-size: xx-small;
+            
+        }
+    }
+
+    .buttondiv{
+        button{
+            width: 30%;
+            height: 100%;
+        }
+    }
+}

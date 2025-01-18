@@ -1,0 +1,31 @@
+.nyscfirst{
+    background-image: url(../../images/pexels-photo-3184303.webp);
+    height: 433px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nyscsec{
+    background-color: #12273680;
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+    height: inherit;
+}
+
+.nyscsec h1{
+    color: white;
+font-family: Poppins;
+font-size: 64px;
+font-weight: 600;
+line-height: 96px;
+
+}
+
+.nyscsec p{
+    color: white;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}

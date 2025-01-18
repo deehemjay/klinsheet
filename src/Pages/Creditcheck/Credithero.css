@@ -1,0 +1,32 @@
+.creditone{
+    background-image: url(../../images/pexels-tima-miroshnichenko-5439471\ \(\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 433px;
+    /* width: 100%; */
+}
+
+.credittwo{
+    background-color: #12273680;
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+    height: inherit;
+}
+
+.credittwo h1{
+    color: white;
+font-family: Poppins;
+font-size: 64px;
+font-weight: 600;
+line-height: 96px;
+
+}
+
+.credittwo p{
+    color: white;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}

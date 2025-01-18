@@ -1,0 +1,78 @@
+.herofirst{
+    background-color: #122736;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.herosecond{
+    width: 85%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+}
+
+.herowords{
+    display: flex;
+    flex-direction: column;
+    width: 439px;
+height: 323px;
+gap: 40px;
+
+
+
+    h1{
+
+        color: white;
+        /* background-color: blue; */
+
+    }
+
+    button{
+        width: 182px;
+height: 43px;
+padding: 10px;
+gap: 10px;
+border-radius: 20px;
+background-color: #FE5925;
+color: white;
+border: none;
+outline: none;
+    }
+
+    button:hover{
+        background-color: #6C933A;
+        cursor: pointer;
+    }
+
+}
+
+
+.heropic{
+    
+    width: 631px;
+    height: 511px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .herofirst{
+        height: 500px;
+    }
+    .heropic{
+        display: none;
+    }
+
+    .herowords{
+        width: 100%;
+        /* background-color: green; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1{
+            text-align: center;
+        }
+    }
+}

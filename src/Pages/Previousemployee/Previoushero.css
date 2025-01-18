@@ -1,0 +1,30 @@
+.prevone{
+    background-image: url(../../images/vintage-style-people-working-office-with-computers_23-2149850978\ 1.png);
+    height: 433px;
+    background-repeat: no-repeat;
+}
+
+.prevtwo{
+    background-color: #12273680;
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: column;
+    height: inherit;
+}
+
+.prevtwo h1{
+    color: white;
+font-family: Poppins;
+font-size: 64px;
+font-weight: 600;
+line-height: 96px;
+
+}
+
+.prevtwo p{
+    color: white;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
