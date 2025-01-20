@@ -1,12 +1,56 @@
-import React from 'react'
-import "./Body1.css"
-import onepic from "../../images/Ellipse 2.png"
-import twopic from "../../images/Ellipse 3.png"
-import threepic from "../../images/Group 3.png"
+import React from "react";
+import "./Body1.css";
+import onepic from "../../images/Ellipse 2.png";
+import twopic from "../../images/Ellipse 3.png";
+import threepic from "../../images/Group 3.png";
 import { FaArrowRightLong } from "react-icons/fa6";
-
+import { useEffect } from "react";
 
 const Body1 = () => {
+  const isInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.bottom >= 0
+    );
+  };
+
+  const slideIn = () => {
+    const elementsToAnimate = [
+      { selector: ".arrowwordone", classToAdd: "slide-inP" },
+      { selector: ".htwo", classToAdd: "slide-inh2" },
+    ];
+
+    elementsToAnimate.forEach(({ selector, classToAdd }) => {
+      const elements = document.querySelectorAll(selector);
+      elements.forEach((el) => {
+        if (isInViewport(el)) {
+          el.classList.add(classToAdd);
+        }
+      });
+    });
+  };
+
+  // UseEffect to handle the scroll and DOMContentLoaded events
+  useEffect(() => {
+    // Call slideIn on initial render to check if elements are already in the viewport
+    slideIn();
+
+    // Add the scroll event listener
+    const handleScroll = () => {
+      slideIn();
+    };
+
+    // Attach the scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="body1first">
       <div className="body1second">
@@ -80,6 +124,6 @@ const Body1 = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Body1
+export default Body1;

@@ -177,7 +177,7 @@ line-height: 54px;
 
     .pictureside{
         width: 100%;
-        background-color: aqua;
+        /* background-color: aqua; */
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -189,7 +189,7 @@ line-height: 54px;
         display: flex;
         align-items: center;
         justify-content: right;
-        background-color: chocolate;
+        /* background-color: chocolate; */
 
     }
 
@@ -197,7 +197,7 @@ line-height: 54px;
         width: 100%;
         display: flex;
         justify-content: start;
-        background-color: red;
+        /* background-color: red; */
        
     }
 
@@ -205,6 +205,6 @@ line-height: 54px;
         display: flex;
         justify-content: start;
         width:  100%;
-        background-color: rebeccapurple;
+        /* background-color: rebeccapurple; */
     }
 }

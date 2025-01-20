@@ -2,8 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import "./Animation.css";
-import pic from "../../images/slide two.png";
 import pics from "../../images/slide one.png";
+import picture from "../../images/slide two.png";
 
 
 
@@ -22,12 +22,12 @@ import pics from "../../images/slide one.png";
     <div className="animat">
       <div className="imgcontainer">
         <img
-          src={pics}
+          src={picture}
           alt="img1"
           className={`image ${currentImage === 1 ? "visible" : "hidden"}`}
         />
         <img
-          src={pic}
+          src={pics}
           alt="img1"
           className={`image ${setCurrentImage === 2 ? "visible" : "hidden"}`}
         />

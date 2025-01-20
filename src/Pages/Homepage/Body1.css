@@ -52,10 +52,42 @@
   }
 }
 
+.body1secondfirst2 img{
+animation: fadein 2s ease-in-out;
+}
+@keyframes fadein{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
 .arrowwordone {
   display: flex;
   align-items: center;
   gap: 5px;
+  opacity: 0;
+   transform: translateX(-100px); /* Example starting position for slide-in */
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.slide-inP{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.htwo{
+  opacity: 0;
+  transform: translateX(-100px); /* Example starting position for slide-in */
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.slide-inh2{
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .body1secondsecond {
