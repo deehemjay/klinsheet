@@ -65,10 +65,13 @@
 
 .dropstyle {
   display: none;
-  z-index: 2;
+  z-index: 200;
+ 
 }
 
 @media screen and (max-width: 768px) {
+
+  
   .homewords {
     display: none;
   }
@@ -76,10 +79,11 @@
   .homesecond{
     /* background-color: green; */
     width: 100%;
+    /* overflow-x: hidden; */
   }
 
   .dropstyle {
     display: block;
-
+ /* overflow-x: hidden; */
   }
 }

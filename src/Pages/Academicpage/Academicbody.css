@@ -38,3 +38,37 @@ text-align: center;
     width: 466px;
 height: 326px;
 }
+
+@media screen and (max-width:768px) {
+    .firstlydiv{
+        height: 900px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .secondlydiv{
+        width: 95%;
+        /* background-color: blue; */
+        display: flex;
+       align-items: start;
+       gap: 10px;
+    }
+
+    .secondlydiv h2{
+/* background-color: yellow; */
+        text-align: left;
+        font-size: medium;
+        line-height: 20px;
+    }
+
+    .secondlydiv p{
+        /* background-color: green; */
+        text-align: left;
+        font-size: small;
+    }
+
+    .secondlydiv img{
+        width: 100%;
+    }
+}

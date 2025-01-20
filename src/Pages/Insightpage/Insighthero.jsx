@@ -70,12 +70,11 @@ const Insighthero = () => {
             </div>
           </div>
           <div className="indiblog">
-            <img src={blg3} alt="" />
+            <img src={blg1} alt="" />
             <div className="wordys">
               <a href="">
                 <h6>
-                  Achieving Organisational Excellence by Leveraging Cohort-based
-                  Learning
+                  Achieving Organisational Excellence by Leveraging Cohort-based Learning
                 </h6>
                 <p>
                   Lorem ipsum dolor sit amet consectetur. Eu maecenas cursus in
@@ -122,7 +121,7 @@ const Insighthero = () => {
                 </p>
               </a>
               <div className="pie">
-                <p>10 outsourced services your business can benefit from</p>
+                <p>Sunday March 10th, 2024</p>
               </div>
             </div>
           </div>

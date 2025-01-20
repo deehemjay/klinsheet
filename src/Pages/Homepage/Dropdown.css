@@ -1,11 +1,14 @@
+
 .dropdownfirst {
   position: relative;
+  /* overflow-x: hidden; */
 }
 
 .dropping {
   color: white;
   border: none;
   cursor: pointer;
+   /* overflow-x: hidden; */
 }
 
 .slidingmenu {
@@ -20,6 +23,8 @@
   color: white;
   transition: right 0.3s ease;
   padding-top: 10px;
+  /* display: none; */
+  overflow-x: hidden;
 
   a {
     color: white;
@@ -54,6 +59,7 @@ border:1px solid white;
   gap: 20px;
   background-color: #6c933a;
   height: 800px;
+   /* overflow-x: hidden; */
 }
 
 .slidingmenu.a {
@@ -67,4 +73,6 @@ color: #FE5925;
 
 .responsiveservices{
     display: flex;
+     /* overflow-x: hidden; */
 }
+

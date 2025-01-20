@@ -6,11 +6,13 @@ const Contactsecond = () => {
     <div className="contactone">
       <div className="contactsec">
         <div className="partone">
-          <h1>Let's Talk</h1>
-          <p>
-            We look forward to hearing from you and assisting you on your
-            journey.
-          </p>
+          <div className="contacthp">
+            <h1>Let's Talk</h1>
+            <p>
+              We look forward to hearing from you and assisting you on your
+              journey.
+            </p>
+          </div>
           <div className="formfill">
             <div className="indiform">
               <h6>Name</h6>

@@ -105,3 +105,75 @@ border: 1px black solid;
 outline: none;
 
 }
+
+
+
+@media screen and (max-width:768px) {
+    .contactone{
+        width: 100%;
+        height: 1200px;
+        /* background-color: red; */
+    }
+.formfill{
+    display: flex;
+    gap: 10px;
+}
+    .contactsec{
+        width: 95%;
+        /* background-color: cyan; */
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .partone{
+        /* background-color: #6C933A; */
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .indiform{
+        display: flex;
+        gap: 0;
+    }
+
+    .contacthp h1{
+        font-size: medium;
+        line-height: 20px;
+    }
+.contacthp{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 70%;
+}
+.but{
+    justify-content: start;
+}
+.but button{
+    width: 100px;
+    height: 28px;
+}
+
+    .contacthp p{
+        font-size: small;
+        line-height: 10px;
+    }
+
+    .indiform input{
+        width: 70%;
+       height: 30px;
+    }
+
+    .indiform textarea{
+        width: 70%;
+    }
+
+    .parttwo{
+        width: 440px;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+    }
+}

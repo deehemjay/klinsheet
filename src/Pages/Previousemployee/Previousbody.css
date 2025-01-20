@@ -37,4 +37,41 @@ text-align: center;
 .body2 img{
     width: 466px;
 height: 326px;
+border-radius: 20px;
+}
+
+@media screen and (max-width:768px) {
+    
+ .body1{
+        height: 900px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .body2{
+        width: 95%;
+        /* background-color: blue; */
+        display: flex;
+       align-items: start;
+       gap: 10px;
+    }
+
+    .body2 h2{
+/* background-color: yellow; */
+        text-align: left;
+        font-size: medium;
+        line-height: 20px;
+    }
+
+    .body2 p{
+        /* background-color: green; */
+        text-align: left;
+        font-size: small;
+    }
+
+    .body2 img{
+        width: 100%;
+        
+    }
 }

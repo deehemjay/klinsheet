@@ -45,4 +45,45 @@ text-align: left;
 .bodysecs img{
     width: 45%;
 height: 80%;
+border-radius: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .bodyfir{
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        height: 1100px;
+    }
+
+    .bodysecs{
+        /* background-color: green; */
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        gap: 10px;
+    }
+
+    .bodysecs img{
+        width: 100%;
+        height: 85%;
+    }
+
+    .body2secs{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+
+    .body2secs h2{
+        font-size: medium;
+        /* background-color: yellow; */
+        line-height: 20px;
+    }
+
+    .body2secs p{
+        /* background-color: red; */
+        font-size: small;
+        line-height: 20px;
+    }
 }

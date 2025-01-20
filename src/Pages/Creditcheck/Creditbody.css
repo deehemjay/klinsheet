@@ -46,3 +46,50 @@ text-align: center;
 height: 370px;
 border-radius: 20px;
 }
+
+
+
+
+@media screen and (max-width:768px) {
+    .bdyone{
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        height: 580px;
+        width: 100%;
+    }
+
+    .bdytwo{
+        /* background-color: green; */
+        display: flex;
+        flex-direction: column-reverse;
+        /* height: fit-content; */
+        width: 95%;
+        gap: 30px;
+    }
+
+    .twoimgs img{
+        width: 48%;
+        height: 100%;
+    }
+
+    .twoimgs{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .h2andp h2{
+        font-size: medium;
+        /* background-color: yellow; */
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .h2andp p{
+        /* background-color: red; */
+        font-size: small;
+        line-height: 20px;
+        text-align: left;
+    }
+}

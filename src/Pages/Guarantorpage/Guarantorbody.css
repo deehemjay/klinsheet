@@ -37,4 +37,41 @@ text-align: center;
 .guardbodytwo img{
     width: 466px;
 height: 326px;
+border-radius: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+    
+ .guardbodyone{
+        height: 900px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .guardbodytwo{
+        width: 95%;
+        /* background-color: blue; */
+        display: flex;
+       align-items: start;
+       gap: 10px;
+    }
+
+    .guardbodytwo h2{
+/* background-color: yellow; */
+        text-align: left;
+        font-size: medium;
+        line-height: 20px;
+    }
+
+    .guardbodytwo p{
+        /* background-color: green; */
+        text-align: left;
+        font-size: small;
+    }
+
+    .guardbodytwo img{
+        width: 100%;
+    }
 }

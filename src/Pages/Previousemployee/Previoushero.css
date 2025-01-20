@@ -28,3 +28,29 @@ font-size: 20px;
 font-weight: 400;
 line-height: 30px;
 }
+
+@media screen and (max-width:768px) {
+    .prevone{
+         background-position: center;
+    }
+
+    .prevtwo{
+          display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h1{
+            font-size: medium;
+            /* background-color: green; */
+            line-height: 10px;
+        }
+
+        p{
+            width: 70%;
+            text-align: center;
+            font-size: small;
+            /* background-color: yellow; */
+            line-height: 20px;
+        }
+    }
+    
+    }

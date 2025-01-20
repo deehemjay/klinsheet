@@ -96,3 +96,41 @@ p{
     color: #FE5925;
 }
 }
+
+@media screen and (max-width:768px) {
+
+ .insightherofirst{
+  height: 3900px;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  align-items: center;
+ } 
+
+ .insightherosecond{
+  height: 95%;
+  width: 95%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+ }
+
+ .blogwrapper{
+  height: 100%;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+ }
+
+ .indiblog{
+  /* background-color: #FE5925; */
+  width: 95%;
+ }
+
+ .wordys{
+  display: flex;
+  gap: 0;
+ }
+}

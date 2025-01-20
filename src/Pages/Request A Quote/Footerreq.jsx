@@ -24,7 +24,7 @@ const Footerone = () => {
             <div className="footerwordser">
               <a href="/">HOME</a>
               <a href="/about">ABOUT US</a>
-              <a href="services">SERVICES</a>
+              <a href="request">REQUEST A QUOTE</a>
               <a href="insight">INSIGHT</a>
               <a href="">JOB PORTAL</a>
             </div>

@@ -41,12 +41,19 @@ line-height: 24px;
 }
 
 @media screen and (max-width: 768px) {
+
+    .aboutbodyfirst{
+height: 1100px;
+display: flex;
+align-items: center;
+    }
     .aboutbody2{
         display: flex;
         width: 100%;
-        flex-direction: column;
-        /* background-color: blue; */
-   justify-content: center;
+        height: 95%;
+        flex-direction: column-reverse;
+         /* background-color: blue;  */
+   justify-content: space-between;
     }
 
     .aboutleftyside{
@@ -62,6 +69,14 @@ line-height: 24px;
 
     .rightside{
         width: 90%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+
+        img{
+            /* background-color: yellow; */
+            width: 100%;
+        }
         
     }
 }
