@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="herosecond">
         <div className="herowords">
           <h1>
-            The Most Dependable Background Check <br /> Company <br />
+            The Most Dependable Background Check Company <br />
             In Nigeria.
           </h1>
           <button>free consultation</button>

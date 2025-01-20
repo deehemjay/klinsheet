@@ -51,6 +51,7 @@
     line-height: 36px;
   }
 
+
   p {
     font-family: Poppins;
     font-size: 14px;
@@ -64,7 +65,7 @@
   .aboutbody3first {
     /* background-color: red; */
     margin-top: 90px;
-    height: 900px;
+    height: 970px;
     display: flex;
     justify-content: center;
   }
@@ -104,12 +105,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     /* background-color: #fe5925; */
   }
 
   .imagepart img{
     /* background-color: yellow; */
-   width: 75%;
+   width: 100%;
   }
 }

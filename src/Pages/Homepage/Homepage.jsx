@@ -17,7 +17,7 @@ const Homepage = () => {
             <SERVICES />
             <a href="/request">REQUEST A QUOTE</a>
             <a href="/insight">INSIGHT</a>
-            <a href="">JOB PORTAL</a>
+            <a href="/">JOB PORTAL</a>
           </nav>
 
           <button className="butty">

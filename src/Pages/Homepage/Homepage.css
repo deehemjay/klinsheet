@@ -4,6 +4,10 @@
   align-items: center;
   height: 82px;
   justify-content: center;
+  position: sticky;
+ top: 0px;
+ z-index: 500;
+
 }
 .homesecond {
   width: 80%;

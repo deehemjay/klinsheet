@@ -43,7 +43,7 @@ line-height: 24px;
 @media screen and (max-width: 768px) {
 
     .aboutbodyfirst{
-height: 1100px;
+height: 1000px;
 display: flex;
 align-items: center;
     }
@@ -71,12 +71,11 @@ align-items: center;
         width: 90%;
         /* background-color: green; */
         display: flex;
-        justify-content: center;
+
 
         img{
-            /* background-color: yellow; */
             width: 100%;
+            /* background-color: green; */
         }
-        
     }
 }

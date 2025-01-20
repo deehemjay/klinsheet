@@ -1,7 +1,6 @@
 
 .dropdownfirst {
   position: relative;
-  /* overflow-x: hidden; */
 }
 
 .dropping {
@@ -18,14 +17,12 @@
   background-color: #6c933a;
   height: 1000px;
   position: absolute;
-  right: -400px;
+  /* right: -400px; */
   width: 350px;
   color: white;
   transition: right 0.3s ease;
   padding-top: 10px;
-  /* display: none; */
-  overflow-x: hidden;
-
+display: none;
   a {
     color: white;
     text-decoration: none;
@@ -57,8 +54,10 @@ border:1px solid white;
   align-items: center;
   width: 350px;
   gap: 20px;
-  background-color: #6c933a;
-  height: 800px;
+  padding-top: 10px;
+  background-color: blue;
+  height: 100vh;
+  /* display: block; */
    /* overflow-x: hidden; */
 }
 
@@ -74,5 +73,15 @@ color: #FE5925;
 .responsiveservices{
     display: flex;
      /* overflow-x: hidden; */
+}
+
+
+@media screen and (max-width:768px) {
+    .slidingmenu {
+    transform: translateX(-100%);
+  }
+  .slidingmenu.open {
+    transform: translateX(0);
+  }
 }
 

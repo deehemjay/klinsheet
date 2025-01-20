@@ -165,6 +165,7 @@ line-height: 18px;
 
 @media screen and (max-width:768px) {
     .body2first{
+        overflow-x: hidden;
         height: 500px;
     }
     .body2firsts{

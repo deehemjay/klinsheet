@@ -86,27 +86,31 @@ color: white;
 
 @media screen and (max-width: 768px) {
     .body4first{
+        overflow-x: hidden;
         width: 100%;
     }
 
     .body4second{
         width: 100%;
-        height: 375px;
+        height: 275px;
         
     }
 
     .body4third{
         width: 90%;
-      height: 280px;
+      height: 180px;
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        /* gap: 40px; */
 
 
         button{
             width: 25%;
             height: 10%;
             font-size: xx-small;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 
@@ -123,6 +127,8 @@ color: white;
         p{font-size: xx-small;
             /* background-color: silver; */
         width: 100%;
+        line-height: 13px;
+        height: fit-content;
         }
     }
 

@@ -70,7 +70,7 @@ const Insighthero = () => {
             </div>
           </div>
           <div className="indiblog">
-            <img src={blg1} alt="" />
+            <img src={blg3} alt="" />
             <div className="wordys">
               <a href="">
                 <h6>

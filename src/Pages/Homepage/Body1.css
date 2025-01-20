@@ -140,6 +140,7 @@
 @media screen and (max-width: 768px) {
 
     .body1first{
+      overflow-x: hidden;
 /* background-color: yellow; */
 height: 820px;
     }
