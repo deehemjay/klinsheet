@@ -49,7 +49,7 @@ background-color: #6C933A;
 
 .wordys {width: 366px;
 height: 108px;
-gap: 15px;
+gap: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -57,9 +57,10 @@ gap: 15px;
 .wordys a{
     text-decoration: none;
     color: black;
+    /* background-color: red; */
 }
 
-.wordys h6 {
+.wordys a {
     width: 360px;
   font-family: Poppins;
   font-size: 16px;
@@ -78,11 +79,17 @@ gap: 15px;
 }
 
 .wordys p {
+  /* background-color: yellow; */
   font-family: Poppins;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
   
+}
+
+.wordys a:hover{
+  cursor: pointer;
+  color: #FE5925;
 }
 
 
@@ -102,7 +109,7 @@ p{
 @media screen and (max-width:768px) {
 
  .insightherofirst{
-  height: 3800px;
+  height: 4050px;
   /* background-color: rebeccapurple; */
   display: flex;
   align-items: center;
@@ -133,7 +140,21 @@ p{
 
  .wordys{
   display: flex;
-  gap: 0;
+  gap: 10px;
   /* background-color: red; */
  }
+
+ .wordys h6{
+  /* background-color: yellow; */
+  font-size: large;
+ }
+
+ .wordys p{
+  font-size: medium;
+ }
+
+ .pie p{
+  font-size: medium;
+ }
+
 }

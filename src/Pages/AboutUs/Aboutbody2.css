@@ -71,6 +71,10 @@ line-height: 60px;
   }
 }
 
+.indi4box:hover{
+  background-color: grey;
+}
+
 @media screen and (max-width: 768px) {
 
     .aboutbody2first{
@@ -86,7 +90,7 @@ line-height: 60px;
         flex-direction: column;
         gap: 10px;
         h2{
-            font-size: medium;
+            font-size: x-large;
         }
     }
 
@@ -97,6 +101,12 @@ line-height: 60px;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+
+    .indi4box p{
+      /* background-color: gold; */
+      font-size: large;
     }
 
     .indi4box{

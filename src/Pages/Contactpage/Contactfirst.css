@@ -53,12 +53,17 @@ line-height: 24px;
         height: 100%;
     }
 
+    .indibox1{
+        display: flex;
+        gap: 10px;
+    }
+
     .indibox1 p{
-font-size: small;
+font-size: large;
     }
 
     .colorlogo1{
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
     }
 }

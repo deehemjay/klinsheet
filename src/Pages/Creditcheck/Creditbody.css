@@ -55,7 +55,7 @@ border-radius: 20px;
         /* background-color: blue; */
         display: flex;
         justify-content: center;
-        height: 580px;
+        height: 610px;
         width: 100%;
     }
 
@@ -80,15 +80,20 @@ border-radius: 20px;
 
 
     .h2andp h2{
-        font-size: medium;
+        font-size: larger;
         /* background-color: yellow; */
         line-height: 20px;
         text-align: left;
     }
 
+    .h2andp{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
     .h2andp p{
         /* background-color: red; */
-        font-size: small;
+        font-size: larger;
         line-height: 20px;
         text-align: left;
     }

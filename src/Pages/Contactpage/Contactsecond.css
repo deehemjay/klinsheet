@@ -139,26 +139,24 @@ outline: none;
     }
 
     .contacthp h1{
-        font-size: medium;
+        font-size: x-large;
         line-height: 20px;
     }
+
 .contacthp{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     width: 70%;
 }
 .but{
     justify-content: start;
 }
-.but button{
-    width: 100px;
-    height: 28px;
-}
+
 
     .contacthp p{
-        font-size: small;
-        line-height: 10px;
+        font-size: large;
+        line-height: 15px;
     }
 
     .indiform input{
@@ -168,6 +166,10 @@ outline: none;
 
     .indiform textarea{
         width: 70%;
+    }
+
+    .indiform h6{
+        font-size: large;
     }
 
     .parttwo{

@@ -53,7 +53,7 @@ border-radius: 20px;
         /* background-color: blue; */
         display: flex;
         justify-content: center;
-        height: 1100px;
+        height: 1200px;
     }
 
     .bodysecs{
@@ -76,14 +76,14 @@ border-radius: 20px;
     }
 
     .body2secs h2{
-        font-size: medium;
+        font-size: larger;
         /* background-color: yellow; */
         line-height: 20px;
     }
 
     .body2secs p{
         /* background-color: red; */
-        font-size: small;
+        font-size: larger;
         line-height: 20px;
     }
 }

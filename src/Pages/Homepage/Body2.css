@@ -1,6 +1,6 @@
 .body2first{
 
-    height: 861px;
+    height: 711px;
     display: flex;
      justify-content: center;
      align-items: end;
@@ -9,7 +9,7 @@
 }
 
 .body2firsts{
-    height: 750px;
+    height: 600px;
      width: 100%;
 background-color: #CBE9FF80;
 display: flex;
@@ -25,7 +25,7 @@ align-items: end;
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 40px;
 
     
     button{
@@ -69,13 +69,14 @@ color: white;
 .leftsideservice{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 0px;
 
     
     h2{
+        /* background-color: red; */
         margin: 0;
         font-family: Poppins;
-font-size: 36px;
+/* font-size: small; */
 font-weight: 500;
 line-height: 54px;
 
@@ -89,6 +90,7 @@ line-height: 54px;
     width: 413px;
 
     p{
+        /* background-color: yellow; */
         margin: 0;
     }
 
@@ -96,6 +98,7 @@ line-height: 54px;
 
 .unallign{
      display: flex;
+     align-items: center;
      gap: 54px;
      /* background-color: blue; */
      width: 70%;
@@ -114,7 +117,7 @@ line-height: 30px;
     p{
         margin: 0;
         font-family: Poppins;
-font-size: 12px;
+font-size: 14px;
 font-weight: 400;
 line-height: 18px;
 
@@ -157,6 +160,12 @@ line-height: 18px;
 
 }
 
+
+    .arrrrow{
+        width: 30px;
+        height:30px;
+    }
+
 .liney{
     border: 1px solid black;
   width: 100%;
@@ -166,10 +175,10 @@ line-height: 18px;
 @media screen and (max-width:768px) {
     .body2first{
         overflow-x: hidden;
-        height: 500px;
+        height: 700px;
     }
     .body2firsts{
-        height: 500px;
+        height:100%;
 display: flex;
 align-self: start;
 /* background-color: #6C933A; */
@@ -190,6 +199,7 @@ align-self: start;
         flex-direction: column;
 justify-content: center;
         width: 100%;
+        gap: 10px;
         /* background-color: yellowgreen; */
 
         p{
@@ -201,17 +211,19 @@ justify-content: center;
     .leftsideservice{
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        gap: 5px;
         width: 90%;
         /* background-color: purple; */
 h2{
-    font-size: medium;
+    font-size: x-large;
+    /* background-color: yellow; */
+   line-height: 25px;
 }
     }
 
     .arrowservice{
         p{
-            font-size: small;
+            /* font-size: small; */
         }
     }
 
@@ -229,24 +241,34 @@ h2{
     }
 
     .indiconts{
+        /* background-color: red; */
+        display: flex;
         h3{
-            font-size: small;
+            font-size: medium;
+            /* background-color: yellow; */
+            width: 20%;
+            text-align: center;
         }
+    }
+
+    .arrrrow{
+        width: 80px;
+        height: 80px;
     }
 
     .unallign{
         display: flex;
         align-items: center;
+        width: 75%;
+        /* background-color: green; */
+        justify-content: center;
+        gap: 0px;
         p{
-            font-size: xx-small;
+            font-size: large;
+            /* background-color: gold; */
             
         }
     }
 
-    .buttondiv{
-        button{
-            width: 30%;
-            height: 100%;
-        }
-    }
+    
 }

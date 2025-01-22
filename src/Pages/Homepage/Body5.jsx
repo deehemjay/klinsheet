@@ -29,32 +29,36 @@ const Body5 = () => {
               <img src={pic4} alt="" />
               <div className="wrd2">
                 <p>November 26, 2024</p>
-                <a href="">
-                  <h5>Basic Marketing and Web Development</h5>
-                </a>
+                <div>
+                  <a href="">Basic Marketing and Web Development</a>
+                </div>
               </div>
             </div>
             <div className="blog1">
               <img src={pic4} alt="" />
               <div className="wrd2">
                 <p>November 26, 2024</p>
-                <a href="">
-                  <h5>Basic Marketing and Web Development</h5>
-                </a>
+                <div>
+                  <div>
+                    <a href="">Basic Marketing and Web Development</a>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="blog1">
               <img src={pic4} alt="" />
               <div className="wrd2">
                 <p>November 26, 2024</p>
-                <a href="">
-                  <h5>Basic Marketing and Web Development</h5>
-                </a>
+                <div>
+                  <a href="">Basic Marketing and Web Development</a>
+                </div>
               </div>
             </div>
           </div>
           <div className="buti">
-            <button>All News</button>
+            <a href="insight">
+              <button>All News</button>
+            </a>
           </div>
         </div>
       </div>

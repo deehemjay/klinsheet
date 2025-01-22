@@ -44,7 +44,7 @@ border-radius: 20px;
 @media screen and (max-width:768px) {
     
  .guardbodyone{
-        height: 900px;
+        height: 1100px;
         /* background-color: red; */
         display: flex;
         justify-content: center;
@@ -61,14 +61,14 @@ border-radius: 20px;
     .guardbodytwo h2{
 /* background-color: yellow; */
         text-align: left;
-        font-size: medium;
+        font-size: larger;
         line-height: 20px;
     }
 
     .guardbodytwo p{
         /* background-color: green; */
         text-align: left;
-        font-size: small;
+        font-size: larger;
     }
 
     .guardbodytwo img{

@@ -16,9 +16,7 @@ const Body2 = () => {
                 <FaArrowRightLong className="arrow" />
                 <p>SERVICE</p>
               </div>
-              <h2>
-                WE Provide The Best Service For You
-              </h2>
+              <h2>WE Provide The Best Service For You</h2>
             </div>
             <p>
               Lorem ipsum dolor sit amet consectetur. Neque volutpat dolor
@@ -36,7 +34,7 @@ const Body2 = () => {
                     Lorem ipsum dolor sit amet consectetur. Neque volutpat dolor
                     scelerisque quisque nunc sit enim Diam Volutpat .
                   </p>
-                  <GoArrowDownRight />
+                  <GoArrowDownRight className="arrrrow" />
                 </div>
               </div>
 
@@ -50,7 +48,7 @@ const Body2 = () => {
                     Lorem ipsum dolor sit amet consectetur. Neque volutpat dolor
                     scelerisque quisque nunc sit enim Diam Volutpat .
                   </p>
-                  <GoArrowDownRight />
+                  <GoArrowDownRight className="arrrrow" />
                 </div>
               </div>
 
@@ -64,7 +62,7 @@ const Body2 = () => {
                     Lorem ipsum dolor sit amet consectetur. Neque volutpat dolor
                     scelerisque quisque nunc sit enim Diam Volutpat .
                   </p>
-                  <GoArrowDownRight />
+                  <GoArrowDownRight className="arrrrow" />
                 </div>
               </div>
 
@@ -78,15 +76,17 @@ const Body2 = () => {
                     Lorem ipsum dolor sit amet consectetur. Neque volutpat dolor
                     scelerisque quisque nunc sit enim Diam Volutpat .
                   </p>
-                  <GoArrowDownRight />
+                  <GoArrowDownRight className="arrrrow" />
                 </div>
               </div>
 
               <hr className="liney" />
             </div>
           </div>
-          <div className='buttondiv'>
-            <button>All Services</button>
+          <div className="buttondiv">
+            <a href="services">
+              <button>All Services</button>
+            </a>
           </div>
         </div>
       </div>

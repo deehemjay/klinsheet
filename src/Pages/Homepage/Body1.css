@@ -174,7 +174,7 @@ animation: fadein 2s ease-in-out;
     .body1first{
       overflow-x: hidden;
 /* background-color: yellow; */
-height: 820px;
+height: 1100px;
     }
   .body1second {
     display: flex;
@@ -204,19 +204,19 @@ height: 820px;
   .bothstyling{
     display: flex;
     align-items: center;
-    button{
+    /* button{
        width: 30%;
        height: 30%;
-    }
+    } */
   }
   .arrowwordone {
     p {
-      font-size: small;
+      /* font-size: small; */
     }
   }
   .htwo {
     h2 {
-      font-size: small;
+      /* font-size: small; */
     }
   }
 
@@ -235,7 +235,7 @@ height: 820px;
     justify-content: start;
     gap: 5px;
     p{
-        font-size: x-small;
+        /* font-size: x-small; */
         width: 90%;
         background-color: white;
     }
@@ -247,11 +247,11 @@ height: 820px;
 
   .indiwrapper{
     h2{
-        font-size: small;
+        /* font-size: small; */
     }
 
     p{
-        font-size: small;
+        /* font-size: small; */
     }
   }
 }

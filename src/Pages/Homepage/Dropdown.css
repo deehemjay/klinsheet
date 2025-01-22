@@ -28,7 +28,12 @@ display: none;
     text-decoration: none;
   }
 
-  button{
+  
+.butty a {
+  text-decoration: none;
+  color: white;
+}
+ .butty button{
     width: 152px;
 height:43px;
 padding: 10px;
@@ -40,13 +45,16 @@ border:1px solid white;
     background-color: #FE5925;
   }
 
-  button:hover{
+ 
+}
+
+.butty  button:hover{
 
     cursor: pointer;
     background-color: transparent;
   }
-}
 
+  
 .slidingmenu.open {
   right: 0;
   display: flex;

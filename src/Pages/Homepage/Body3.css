@@ -134,7 +134,7 @@ line-height: 54px;
 @media screen and (max-width: 768px) {
     .body3first{
         overflow-x: hidden;
-        height: 1500px;
+        height: 1600px;
         /* background-color: gold; */
     }
 
@@ -149,29 +149,29 @@ line-height: 54px;
         /* background-color: green; */
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 25px;
 
         p{
             /* background-color: red; */
             width: 90%;
-            font-size: small;
+            font-size: large;
         }
     }
 
     .firstright{
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 10px;
       
         h3{
               line-height: 0px;
-            font-size: medium;
+            /* font-size: medium; */
         }
     }
 
     .wrdarr{
         p{
-            font-size: small;
+            font-size: large;
         }
     }
 
@@ -191,6 +191,18 @@ line-height: 54px;
         justify-content: right;
         /* background-color: chocolate; */
 
+        img{
+            width: 90%;
+        }
+
+        h5{
+            font-size: large;
+        }
+
+        p{
+            font-size: large;
+        }
+
     }
 
     .secondpicture{
@@ -198,7 +210,17 @@ line-height: 54px;
         display: flex;
         justify-content: start;
         /* background-color: red; */
-       
+       img{
+            width: 90%;
+        }
+        
+        h5{
+            font-size: large;
+        }
+
+        p{
+            font-size: large;
+        }
     }
 
     .thirdpicture{
@@ -206,5 +228,16 @@ line-height: 54px;
         justify-content: start;
         width:  100%;
         /* background-color: rebeccapurple; */
+        img{
+            width: 90%;
+        }
+        
+        h5{
+            font-size: large;
+        }
+
+        p{
+            font-size: large;
+        }
     }
 }

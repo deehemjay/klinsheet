@@ -30,7 +30,10 @@ const Dropdown = () => {
         <a href="request">REQUEST A QUOTE</a>
         <a href="insight">INSIGHT</a>
         <a href="/">JOB PORTAL</a>
-        <button>CONTACT US</button>
+
+        <button className="butty">
+          <a href="/contactus">CONTACT US</a>
+        </button>
       </div>
     </div>
   );

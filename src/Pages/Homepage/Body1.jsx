@@ -118,7 +118,9 @@ const Body1 = () => {
                 <p>National Coverage</p>
               </div>
             </div>
-            <button>About Us</button>
+            <a href="about">
+              <button>About Us</button>
+            </a>
           </div>
         </div>
       </div>

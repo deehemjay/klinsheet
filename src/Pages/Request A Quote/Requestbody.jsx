@@ -44,7 +44,7 @@ const Requestbody = () => {
             </div>
           </div>
           <div className="secondparter">
-            <h2>fill the form</h2>
+            <h2>Fill the form</h2>
             <div className="formbelow">
               <div className="indiformer">
                 <h6>Your Name</h6>

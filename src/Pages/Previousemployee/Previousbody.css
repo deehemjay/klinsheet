@@ -43,7 +43,7 @@ border-radius: 20px;
 @media screen and (max-width:768px) {
     
  .body1{
-        height: 900px;
+        height: 1150px;
         /* background-color: red; */
         display: flex;
         justify-content: center;
@@ -60,14 +60,14 @@ border-radius: 20px;
     .body2 h2{
 /* background-color: yellow; */
         text-align: left;
-        font-size: medium;
+        font-size: larger;
         line-height: 20px;
     }
 
     .body2 p{
         /* background-color: green; */
         text-align: left;
-        font-size: small;
+        font-size: larger;
     }
 
     .body2 img{

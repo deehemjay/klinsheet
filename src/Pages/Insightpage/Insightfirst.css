@@ -22,6 +22,8 @@ line-height: 96px;
 
 }
 
+
+
 .insighttwo p{
     color: white;
     font-family: Poppins;
@@ -39,17 +41,19 @@ line-height: 30px;
     .insighttwo{
          display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
         h1{
-            font-size: medium;
+            font-size: xx-large;
             /* background-color: green; */
             line-height: 10px;
         }
 
+       
+
         p{
             width: 70%;
             text-align: center;
-            font-size: small;
+            font-size: large;
             /* background-color: yellow; */
             line-height: 20px;
         }

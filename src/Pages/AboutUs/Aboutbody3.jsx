@@ -22,7 +22,7 @@ const Aboutbody3 = () => {
           <div className="twodiv">
             <h1>OUR VISION</h1>
             <p>
-              by 2025, we will be the most responsive and most preferred HR
+              By 2025, we will be the most responsive and most preferred HR
               consulting firm when it comes to quality talent hunts and employee
               verification process in Nigeria.
             </p>
