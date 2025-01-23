@@ -9,6 +9,12 @@
     background-repeat: no-repeat;
 }
 
+.criminalh2p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .criminaltwo{
     /* background-color: blue; */
     width: 80%;

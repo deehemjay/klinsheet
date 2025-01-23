@@ -44,7 +44,7 @@ border-radius: 20px;
 @media screen and (max-width:768px) {
     
  .guardbodyone{
-        height: 1100px;
+        height: 1220px;
         /* background-color: red; */
         display: flex;
         justify-content: center;
