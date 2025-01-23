@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Guarantorbody.css"
 import mas from "../../images/Mask group (8).png"
-import { motion } from 'framer-motion'
+import { motion,easeIn } from 'framer-motion'
 
 const Guarantorbody = () => {
 

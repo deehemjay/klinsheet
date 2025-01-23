@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Previousbody.css"
 import mas2 from "../../images/Mask group (9).png"
-import { motion } from 'framer-motion'
+import { motion, easeIn } from 'framer-motion'
 
 const Previousbody = () => {
   

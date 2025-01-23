@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Nyscbody.css"
 import pics1 from "../../images/pexels-mizunokozuki-13801640.jpg"
-import { motion } from 'framer-motion'
+import { motion, easeIn } from 'framer-motion'
 const Nyscbody = () => {
 
 

@@ -3,7 +3,7 @@ import "./Academicbody.css"
 import grp2 from "../../images/Mask group (6).png"
 import ecl5 from "../../images/Ellipse 3 (2).png"
 import { useState } from 'react'
-import { motion } from 'framer-motion'
+import { motion,easeIn } from 'framer-motion'
 
 const Academicbody = () => {
 
