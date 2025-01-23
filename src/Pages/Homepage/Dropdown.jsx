@@ -21,7 +21,7 @@ const Dropdown = () => {
           <MdOutlineAutoAwesomeMotion style={{ fontSize: "30px" }} />
         )}
       </div>
-      <div className={`slidingmenu ${isOpen ? "open" : ""}`}>
+      <div className={`slidingmenuss ${isOpen ? "open" : ""}`}>
         <a href="/">HOME</a>
         <a href="about">ABOUT US</a>
         <div className="responsiveservices">

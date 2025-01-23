@@ -84,7 +84,7 @@ const Body2 = () => {
             </div>
           </div>
           <div className="buttondiv">
-            <a href="services">
+            <a href="/">
               <button>All Services</button>
             </a>
           </div>

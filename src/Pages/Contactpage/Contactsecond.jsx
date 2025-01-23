@@ -31,7 +31,7 @@ const Contactsecond = () => {
               <textarea placeholder="type your message...."></textarea>
             </div>
           </div>
-          <div className="but">
+          <div className="butttis">
             <button>Submit</button>
           </div>
         </div>

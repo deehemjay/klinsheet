@@ -12,7 +12,7 @@ const Hero = () => {
             The Most Dependable Background Check Company <br />
             In Nigeria.
           </h1>
-          <a href="request">
+          <a href="/request">
             <button>Free consultation</button>
           </a>
         </div>

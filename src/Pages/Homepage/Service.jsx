@@ -22,7 +22,7 @@ const Service = () => {
       {isDropdownopens && (
         <div className="dropdowncontents">
           <a href="/academic">Academic Verification</a>
-          <a href="/previous">Previous Employee Check</a>
+          <a href="/previousemployee">Previous Employee Check</a>
           <a href="/guarantor">Guarantors/ ReferenceCheck</a>
           <a href="/nyscverification">NYSC Verification</a>
           <a href="/addressverification">Address Verification</a>
